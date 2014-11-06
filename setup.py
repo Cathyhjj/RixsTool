@@ -26,9 +26,12 @@
 #############################################################################*/
 __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 __version__ = '0.0'
-
+import glob
+import os
+import distutils.sysconfig
 from distutils.core import setup
-
+data_files = [(os.path.join(distutils.sysconfig.get_python_lib(),"RixsTool", "ui"),
+               glob.glob(os.path.join("RixsTool","ui","*")))]
 distribution = setup(
     name="RixsTool",
     version= __version__,
@@ -39,5 +42,6 @@ distribution = setup(
     url = "https://github.com/tonnrueter/RixsTool",
     long_description = "Here be long description",
     platforms='any',
-    packages=['RixsTool']
+    data_files=data_files,
+    packages=['RixsTool', "RixsTool.widgets"]
 )

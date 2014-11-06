@@ -58,7 +58,7 @@ class RIXSMainWindow(qt.QMainWindow):
         qt.QMainWindow.__init__(self, parent)
 
         uiFilePath = UiPaths.mainWindowUiPath()
-        print uiFilePath 
+
         uic.loadUi(uiFilePath, self)
 
         self.setWindowTitle('RixsTool')

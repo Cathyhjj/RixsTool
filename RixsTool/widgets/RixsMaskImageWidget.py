@@ -37,8 +37,8 @@ from RixsTool.widgets.ToolWindows import BandPassFilterWindow, BandPassID32Windo
 # PyMcaQt: qt version of pymca
 # MaskImageWidget: Base class for image visualization
 #
-from PyMca import PyMcaQt as qt
-from PyMca.widgets import MaskImageWidget
+from PyMca5.PyMcaGui import PyMcaQt as qt
+from PyMca5.PyMcaGui import MaskImageWidget
 
 #
 # TODO: platform is import for dev purposes, remove me

@@ -31,7 +31,7 @@ __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 from RixsTool.Utils import unique as RixsUtilsUnique
 #from RixsTool.Datahandling import RixsProject
 from RixsTool.Project import RixsProject
-from PyMca import PyMcaQt as qt
+from PyMca5.PyMcaGui import PyMcaQt as qt
 from os.path import normpath as OsPathNormpath
 
 DEBUG = 0

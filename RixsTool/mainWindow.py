@@ -32,7 +32,7 @@ __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 # qt: PyMca version of qt
 #
 from PyQt4 import uic
-from PyMca import PyMcaQt as qt
+from PyMca5.PyMcaGui import PyMcaQt as qt
 
 #
 # IMPORTS FROM RixsTool
@@ -58,6 +58,7 @@ class RIXSMainWindow(qt.QMainWindow):
         qt.QMainWindow.__init__(self, parent)
 
         uiFilePath = UiPaths.mainWindowUiPath()
+        print uiFilePath 
         uic.loadUi(uiFilePath, self)
 
         self.setWindowTitle('RixsTool')

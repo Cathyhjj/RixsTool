@@ -29,7 +29,7 @@ __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 #
 # Import for EDF file I/O
 #
-from PyMca.PyMcaIO.EdfFile import EdfFile
+from PyMca5.PyMcaIO.EdfFile import EdfFile
 
 #
 # Imports for spec file I/O

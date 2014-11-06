@@ -29,10 +29,10 @@ __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 import numpy
 
 # Numeric routines from PyMca
-from PyMca.Gefit import LeastSquaresFit as LSF
-from PyMca import SpecfitFunctions as SF
-from PyMca.SpecfitFuns import gauss as gaussianModel
-from PyMca import SNIPModule as SNIP
+from PyMca5.PyMcaMath.fitting.Gefit import LeastSquaresFit as LSF
+from PyMca5.PyMcaMath.fitting import SpecfitFunctions as SF
+from PyMca5.PyMcaMath.fitting.SpecfitFuns import gauss as gaussianModel
+from PyMca5.PyMcaMath import SNIPModule as SNIP
 
 # IO and Datahandling from RixsTool
 from RixsTool.Project import RixsProject

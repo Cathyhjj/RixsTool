@@ -26,7 +26,7 @@
 #############################################################################*/
 __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 
-from PyMca import PyMcaQt as qt
+from PyMca5.PyMcaGui import PyMcaQt as qt
 
 __doc__ = """Module provides actions and context menus for views. Based on the abstract base class
 :py:class:`AbstractAction`, the actions remain empty child classes. This procedure allows to distinguish

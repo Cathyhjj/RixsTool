@@ -28,7 +28,7 @@ __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 __doc__ = """Module provides a base class for a data manipulation GUI for py:mod:`PyMca.widgets.PlotWindow`"""
 
 # Imports for GUI
-from PyMca import PyMcaQt as qt
+from PyMca5.PyMcaGui import PyMcaQt as qt
 from PyQt4 import uic
 
 from RixsTool.UiPaths import UiPaths

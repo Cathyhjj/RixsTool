@@ -31,7 +31,7 @@ __author__ = "Tonn Rueter - ESRF Data Analysis Unit"
 from PyQt4 import uic
 from RixsTool.UiPaths import UiPaths
 
-from PyMca import PyMcaQt as qt
+from PyMca5.PyMcaGui import PyMcaQt as qt
 
 
 #

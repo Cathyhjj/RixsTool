@@ -285,7 +285,7 @@
   <customwidget>
    <class>ScanWindow</class>
    <extends>QWidget</extends>
-   <header>PyMca.widgets.ScanWindow</header>
+   <header>PyMca5.PyMca.ScanWindow</header>
    <container>1</container>
   </customwidget>
   <customwidget>
